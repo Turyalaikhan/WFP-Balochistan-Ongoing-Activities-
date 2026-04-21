@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WFP Balochistan – Ongoing Activities</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <h2>BNP & SMP Activities – Balochistan</h2>
+  <div id="map" style="height:600px;"></div>
+
+  <script>
+    var map = L.map('map').setView([28.5, 66.5], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Example markers (replace with your data.json later)
+    var facilities = [
+      { "facility":"DHQ Hospital Awaran","lat":26.46200,"lng":65.25281,"activity":"BNP" },
+      { "facility":"Gghs Postal Colony Girls","lat":30.200336,"lng":67.004669,"activity":"SMP" }
+    ];
+
+    facilities.forEach(f => {
+      L.marker([f.lat, f.lng]).addTo(map)
+        .bindPopup(`<b>${f.facility}</b><br>${f.activity}`);
+    });
+  </script>
+</body>
+</html>
