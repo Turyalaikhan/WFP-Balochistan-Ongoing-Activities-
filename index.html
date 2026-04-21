@@ -2,46 +2,109 @@
 <html>
 <head>
   <title>WFP Balochistan – Ongoing Activities</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS & JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- PapaParse for CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+  <style>
+    #map { height: 600px; }
+    #controls { margin: 10px; }
+  </style>
 </head>
 <body>
   <h2>BNP & SMP Activities – Balochistan</h2>
-  <div id="map" style="height:600px;"></div>
-<select id="activityFilter">
-  <option value="All">All Activities</option>
-  <option value="BNP">BNP</option>
-  <option value="SMP">SMP</option>
-  <option value="Cash Stipend">Cash Stipend</option>
-</select>
+
+  <!-- Filter dropdown -->
+  <div id="controls">
+    <label for="activityFilter">Filter by Activity: </label>
+    <select id="activityFilter">
+      <option value="All">All Activities</option>
+      <option value="BNP">BNP</option>
+      <option value="SMP">SMP</option>
+      <option value="Cash Stipend">Cash Stipend</option>
+    </select>
+  </div>
+
+  <!-- Map container -->
+  <div id="map"></div>
+
   <script>
+    // Initialize map
     var map = L.map('map').setView([28.5, 66.5], 6);
 
+    // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    // Load CSV using PapaParse
-    var script = document.createElement("script");
-    script.src = "https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js";
-    document.head.appendChild(script);
+    // Load Balochistan district boundaries (GeoJSON file must be in repo)
+    fetch("balochistan.geojson")
+      .then(response => response.json())
+      .then(data => {
+        L.geoJSON(data, {
+          style: {
+            color: "#333",
+            weight: 1,
+            fillColor: "#cce5ff",
+            fillOpacity: 0.2
+          },
+          onEachFeature: function (feature, layer) {
+            layer.bindPopup(`<b>${feature.properties.DISTRICT}</b>`);
+          }
+        }).addTo(map);
+      });
 
-    script.onload = function() {
-      Papa.parse("WFP-Balochistan-MAP.csv", {
-        download: true,
-        header: true,
-        complete: function(results) {
-          results.data.forEach(f => {
-            if(f.Latitude && f.Longitude) {
-              L.marker([f.Latitude, f.Longitude]).addTo(map)
-                .bindPopup(`<b>${f["Health Facility/School Name"]}</b><br>
-                            District: ${f.District}<br>
-                            Activity: ${f.Activity} – ${f["Activity Status"]}`);
-            }
-          });
+    // Marker storage
+    let markers = [];
+
+    // Function to get marker color by activity
+    function getColor(activity) {
+      if(activity === "BNP") return "red";
+      if(activity === "SMP") return "blue";
+      if(activity === "Cash Stipend") return "green";
+      return "gray";
+    }
+
+    // Function to plot data
+    function plotData(data) {
+      markers.forEach(m => map.removeLayer(m)); // clear old markers
+      markers = [];
+
+      data.forEach(f => {
+        if(f.Latitude && f.Longitude) {
+          let marker = L.circleMarker([f.Latitude, f.Longitude], {
+            radius: 6,
+            color: getColor(f.Activity)
+          }).bindPopup(`<b>${f["Health Facility/School Name"]}</b><br>
+                        District: ${f.District}<br>
+                        Activity: ${f.Activity} – ${f["Activity Status"]}`);
+          markers.push(marker);
+          marker.addTo(map);
         }
       });
-    };
+    }
+
+    // Load CSV and enable filtering
+    Papa.parse("WFP-Balochistan-MAP.csv", {
+      download: true,
+      header: true,
+      complete: function(results) {
+        let allData = results.data;
+        plotData(allData);
+
+        document.getElementById("activityFilter").addEventListener("change", function() {
+          let selected = this.value;
+          let filtered = selected === "All" ? allData : allData.filter(f => f.Activity === selected);
+          plotData(filtered);
+        });
+      }
+    });
   </script>
 </body>
 </html>
