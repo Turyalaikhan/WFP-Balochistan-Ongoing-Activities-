@@ -8,7 +8,12 @@
 <body>
   <h2>BNP & SMP Activities – Balochistan</h2>
   <div id="map" style="height:600px;"></div>
-
+<select id="activityFilter">
+  <option value="All">All Activities</option>
+  <option value="BNP">BNP</option>
+  <option value="SMP">SMP</option>
+  <option value="Cash Stipend">Cash Stipend</option>
+</select>
   <script>
     var map = L.map('map').setView([28.5, 66.5], 6);
 
