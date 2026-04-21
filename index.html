@@ -1,18 +1,42 @@
-<!-- Load PapaParse to read CSV -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-<script>
-  Papa.parse("WFP-Balochistan-MAP.csv", {
-    download: true,
-    header: true,
-    complete: function(results) {
-      results.data.forEach(f => {
-        if(f.Latitude && f.Longitude) {
-          L.marker([f.Latitude, f.Longitude]).addTo(map)
-            .bindPopup(`<b>${f["Health Facility/School Name"]}</b><br>
-                        District: ${f.District}<br>
-                        Activity: ${f.Activity} – ${f["Activity Status"]}`);
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WFP Balochistan – Ongoing Activities</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <h2>BNP & SMP Activities – Balochistan</h2>
+  <div id="map" style="height:600px;"></div>
+
+  <script>
+    var map = L.map('map').setView([28.5, 66.5], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Load CSV using PapaParse
+    var script = document.createElement("script");
+    script.src = "https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js";
+    document.head.appendChild(script);
+
+    script.onload = function() {
+      Papa.parse("WFP-Balochistan-MAP.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+          results.data.forEach(f => {
+            if(f.Latitude && f.Longitude) {
+              L.marker([f.Latitude, f.Longitude]).addTo(map)
+                .bindPopup(`<b>${f["Health Facility/School Name"]}</b><br>
+                            District: ${f.District}<br>
+                            Activity: ${f.Activity} – ${f["Activity Status"]}`);
+            }
+          });
         }
       });
-    }
-  });
-</script>
+    };
+  </script>
+</body>
+</html>
