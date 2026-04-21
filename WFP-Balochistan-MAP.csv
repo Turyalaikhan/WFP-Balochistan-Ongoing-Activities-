@@ -1,0 +1,186 @@
+S no.,Activity,Activity Name,Activity Status,District,UC/Tehsil ,Implementing Partner,Health Facility/School Name,BEMIS,School_Level,School_Type,Latitude,Longitude
+1,SO2,BNP,Ongoing,Awaran,Awaran,Azat Foundation,DHQ Hospital Awaran,na,na,na,26.46200,65.25281
+2,SO2,BNP,Ongoing,Awaran,Jhao,Azat Foundation,RHC Jhao,na,na,na,26.39400,65.603
+3,SO2,BNP,Ongoing,Barkhan,Barkhan,MERF,DHQ Hospital barkhan,na,na,na,29.90100,69.522
+4,SO2,BNP,Ongoing,Barkhan,Rakni,MERF,RHC RAKHNI,na,na,na,30.04655,69.92628065
+5,SO2,BNP,Ongoing,Chagai,Dalbandin,IHHN,"Prince Fahad Bin Sultan Hospital,Dalbandin",na,na,na,28.88700,64.401
+6,SO2,BNP,Ongoing,Chagai,Chagai,IHHN,RHC Chagi,na,na,na,29.35400,64.401
+7,SO2,BNP,Ongoing,Chagai,Nukundi,IHHN,RHC Nokundi,na,na,na,28.82800,62.741
+8,SO2,BNP,Ongoing,Chaman,Chaman,Tameer-e-Khalk Foundation,DHQ Hospital 2,na,na,na,30.92600,66.44902
+9,SO2,BNP,Ongoing,Dera Bugti,Dera Bugti,Tameer-e-Khalk Foundation,DHQ Hospital Dera Bugti,na,na,na,29.03200,69.161
+10,SO2,BNP,Ongoing,Dera Bugti,Sui,Tameer-e-Khalk Foundation,RHC SUI,na,na,na,28.63700,69.196
+11,SO2,BNP,Ongoing,Dukki,Dukki,Azat Foundation,DHQ Duki,na,na,na,30.15300,68.575
+12,SO2,BNP,Ongoing,Gwadar,Gwadar,IHHN,DHQ Hospital Gawadar,na,na,na,25.17100,62.333
+13,SO2,BNP,Ongoing,Gwadar,Jiwani,IHHN,RHC Jiwani,na,na,na,25.04500,61.745
+14,SO2,BNP,Ongoing,Gwadar,Ormara,IHHN,RHC Ormara,na,na,na,25.20400,64.637
+15,SO2,BNP,Ongoing,Gwadar,Pasni,IHHN,RHC Pasni,na,na,na,25.26500,63.474
+16,SO2,BNP,Ongoing,Harnai,Harnai,Tameer-e-Khalk Foundation,DHQ Harnai,na,na,na,30.10600,67.932
+17,SO2,BNP,Ongoing,Jaffarabad,Jaffarabad,IHHN,DHQ Hospital Jaffarabad,na,na,na,28.37300,68.35
+18,SO2,BNP,Ongoing,Usta Mohammad,USTA MOHAMMAD,IHHN,THQ Hospital Osta Muhammad,na,na,na,28.17400,68.042
+19,SO2,BNP,Ongoing,Jhal Magsi,Gandawah,IHHN,DHQ Hospital Jhal Magsi,na,na,na,28.28700,67.453
+20,SO2,BNP,Ongoing,Kachhi,Kachhi,IHHN,DHQ Hospital Dhadar,na,na,na,29.47700,67.645
+21,SO2,BNP,Ongoing,Kachhi,Mach,IHHN,Civil Hospital Mach,na,na,na,29.86200,67.33100
+22,SO2,BNP,Ongoing,Kachhi,Bhag,IHHN,Civil Hospital Bhag,na,na,na,29.04700,67.825
+23,SO2,BNP,Ongoing,Kalat,Kalat,MERF,DHQ Kalat,na,na,na,29.02300,66.591
+24,SO2,BNP,Ongoing,Kalat,Mangocher,MERF,RHC Mandy Haji Mangochar,na,na,na,29.38500,66.64
+25,SO2,BNP,Ongoing,Kech,Kech,Azat Foundation,Teaching Hospital Turbat,na,na,na,25.99000,63.062
+26,SO2,BNP,Ongoing,Kech,Buleda,Azat Foundation,RHC Bulaida,na,na,na,26.21400,63.153
+27,SO2,BNP,Ongoing,Kech,Dasht,Azat Foundation,RHC Dasht Kuddan,na,na,na,25.70900,62.543
+28,SO2,BNP,Ongoing,Kech,Tump,Azat Foundation,"RHC Tump, Tehsil Tump Kech",na,na,na,26.09900,62.361
+29,SO2,BNP,Ongoing,Kharan,Kharan,Azat Foundation,DHQ Hospital Kharan,na,na,na,28.58900,65.43
+30,SO2,BNP,Ongoing,Kharan,Kharan,Azat Foundation,RHC Jamak,na,na,na,28.43545,65.3003911
+31,SO2,BNP,Ongoing,Khuzdar,Khuzdar,MERF,DHQ Hospital Khuzdar,na,na,na,27.80100,66.611
+32,SO2,BNP,Ongoing,Khuzdar,Naal,MERF,RHC Naal,na,na,na,27.69100,66.194
+33,SO2,BNP,Ongoing,Khuzdar,Karkh Moola ,MERF,RHC Karkh/Civil Hospital,na,na,na,27.74000,67.177
+34,SO2,BNP,Ongoing,Khuzdar,Zehri (Sub Tehsil),MERF,Nawab Zada Mir Memorial Hospital Zehri,na,na,na,28.56400,66.749
+35,SO2,BNP,Ongoing,Khuzdar,Wadh,MERF,THQ Wadh,na,na,na,27.34400,66.373
+36,SO2,BNP,Ongoing,Killa Abdullah,Killa Abdullah,Tameer-e-Khalk Foundation,RHC Killa Abdullah,na,na,na,30.72100,66.682086
+37,SO2,BNP,Ongoing,Killa Saifullah,Killa Saifullah,IHHN,DHQ Hospital KSF,na,na,na,30.69500,68.35
+38,SO2,BNP,Ongoing,Killa Saifullah,Muslim Bagh,IHHN,Civil Hospital Muslim Bagh,na,na,na,30.82500,67.734
+39,SO2,BNP,Ongoing,Kohlu,Kohlu,MERF,DHQ Hospital Kohlu,na,na,na,29.89500,69.237
+40,SO2,BNP,Ongoing,Lasbela,Uthal,MERF,DHQ Othal,na,na,na,25.81100,66.623
+41,SO2,BNP,Ongoing,Lasbela,Bela,MERF,Civil Hospital Bela,na,na,na,26.22200,66.313
+42,SO2,BNP,Ongoing,Hub,Hub,MERF,JGQ Govt Hospital Hub,na,na,na,25.02300,66.871
+43,SO2,BNP,Ongoing,Lasbela,Lakhara,MERF,RHC Lakhara,na,na,na,25.86400,66.452
+44,SO2,BNP,Ongoing,Hub,Dureji,MERF,RHC Dureji,na,na,na,25.88300,67.299
+45,SO2,BNP,Ongoing,Hub,Gaddani,MERF,RHC Gaddani,na,na,na,25.09600,66.719
+46,SO2,BNP,Ongoing,Loralai,Loralai,Tameer-e-Khalk Foundation,DHQ Hospital Loralai,na,na,na,30.38000,68.6
+47,SO2,BNP,Ongoing,Loralai,Mekhtar,Tameer-e-Khalk Foundation,RHC Mekhtar,na,na,na,30.48000,69.339
+48,SO2,BNP,Ongoing,Mastung,Mastung,MERF,DHQ Hospital Mastung,na,na,na,29.79900,66.8451
+49,SO2,BNP,Ongoing,Mastung,Kardigap,MERF,RHC Kirdgab,na,na,na,29.72900,66.46
+50,SO2,BNP,Ongoing,Musakhel,Musakhel,Tameer-e-Khalk Foundation,DHQ Hospital musakhail,na,na,na,30.86100,69.83
+51,SO2,BNP,Ongoing,Nasirabad,Nasirabad,IHHN,DHQ Hospital Nasirabad,na,na,na,28.52100,68.21
+52,SO2,BNP,Ongoing,Nushki,Nushki,Azat Foundation,DHQ Hospital Nushki,na,na,na,29.55500,66.015
+53,SO2,BNP,Ongoing,Nushki,Keshangi,Azat Foundation,RHC Keshangi,na,na,na,29.35000,66.092
+54,SO2,BNP,Ongoing,Nushki,Ahmadwal,Azat Foundation,RHC AhmedWall,na,na,na,29.39700,65.94
+55,SO2,BNP,Ongoing,Panjgur,Panjgur,MERF,Teaching hospital Panjgoor,na,na,na,26.97100,64.096
+56,SO2,BNP,Ongoing,Panjgur,Panjgur,MERF,AM 50 bedded general hospital Panjgur,na,na,na,26.99800,64.09469
+57,SO2,BNP,Ongoing,Panjgur,Panjgur,MERF,RHC Washbod,na,na,na,26.99800,64.131
+58,SO2,BNP,Ongoing,Pishin,Pishin,MERF,DHQ Hospital Pishin,na,na,na,30.57200,66.86400
+59,SO2,BNP,Ongoing,Pishin,Karezat,MERF,RHC Bostan,na,na,na,30.47300,67.00634363
+60,SO2,BNP,Ongoing,Pishin,Khanozai,MERF,THQ Hospital khanozai,na,na,na,30.62200,67.339
+61,SO2,BNP,Ongoing,Quetta,Quetta,Tameer-e-Khalk Foundation,Bolan Medical Complex Hospital,na,na,na,30.18000,66.976
+62,SO2,BNP,Ongoing,Quetta,Kuchlak,Tameer-e-Khalk Foundation,Mufti Mehmood Hospital,na,na,na,30.35727,66.956
+63,SO2,BNP,Ongoing,Quetta,Quetta,Tameer-e-Khalk Foundation,Sheikh Zayyad Hospital,na,na,na,30.08100,66.96034
+64,SO2,BNP,Ongoing,Sherani,Manikawah,MERF,"RHC Manikuha, Sherani",na,na,na,31.40469,69.812
+65,SO2,BNP,Ongoing,Sibi,Sibi,Tameer-e-Khalk Foundation,DHQ Hospital Sibi,na,na,na,29.55100,67.892
+66,SO2,BNP,Ongoing,Sibi,Lehri,Tameer-e-Khalk Foundation,"RHC Sibi,Lehri",na,na,na,29.17900,68.21
+67,SO2,BNP,Ongoing,Sohbatpur,Sohbatpur,IHHN,DHQ Hospital Sohbatpur,na,na,na,28.51600,68.542
+68,SO2,BNP,Ongoing,Surab,Surab,MERF,DHQ Surab,na,na,na,28.49500,66.264
+69,SO2,BNP,Ongoing,Surab,Surab,MERF,RHC Hathyari Gidder,na,na,na,28.32100,66.097
+70,SO2,BNP,Ongoing,Washuk,Basima,Azat Foundation,Civil Hospital - THQ Basim,na,na,na,27.89500,65.817079
+71,SO2,BNP,Ongoing,Zhob,Zhob,MERF,DHQ Hospital Zhob,na,na,na,31.34200,69.444
+72,SO2,BNP,Ongoing,Ziarat,Ziarat,Tameer-e-Khalk Foundation,THQ Hospital Ziarat,na,na,na,30.38500,67.722
+73,SO2,BNP,Ongoing,Ziarat,Ziarat,Tameer-e-Khalk Foundation,THQ Hospital Sinjavi,na,na,na,30.26200,68.319
+74,SO2,BNP,Ongoing,Harnai,Shahrag,Tameer-e-Khalk Foundation,RHC Shahrag,na,na,na,30.19200,67.711
+75,SO2,BNP,Ongoing,Usta Mohammad,Gandakha,IHHN,MCH Kanori,na,na,na,28.01000,67.848
+76,SO2,BNP,Ongoing,Jhal Magsi,Jhal magsi,IHHN,RHC Jhal Magsi,na,na,na,28.28700,67.453
+77,SO2,BNP,Ongoing,Kech,Mand,Azat Foundation,RHC Mand,na,na,na,26.11900,62.027
+78,SO2,BNP,Ongoing,Musakhel,Durg,Tameer-e-Khalk Foundation,RHC Durg,na,na,na,30.86100,70.183
+79,SO2,BNP,Ongoing,Nasirabad,Tamboo,IHHN,RHC Mirwah,na,na,na,28.44600,67.854
+80,SO2,BNP,Ongoing,Nasirabad,Cheather,IHHN,RHC cheather,na,na,na,28.86600,68.033
+81,SO2,BNP,Ongoing,Washuk,Washuk,Azat Foundation,DHQ Washuk,na,na,na,27.71900,64.808
+82,SO2,BNP,Ongoing,Washuk,Mashkeil,Azat Foundation,RHC Ladgasht,na,na,na,27.92800,62.917
+83,SO2,BNP,Ongoing,Hub,Somyani,MERF,RHC Winder,na,na,na,25.37965,66.66529854
+84,SO2,BNP,Ongoing,Kachhi,Sanni,IHHN,RHC Shoran/RHC Kattan,na,na,na,28.86716,67.456713
+85,SO2,BNP,Ongoing,Kech,Hoshab,Azat Foundation,RHC Hoshab,na,na,na,26.01796,63.885329
+86,SO2,BNP,Ongoing,Killa Abdullah,Abdul Rehmanzai,Tameer-e-Khalk Foundation,DHQ Abdul Rehman Zai,na,na,na,30.60889,66.661837
+87,SO2,BNP,Ongoing,Pishin,Gulistan,MERF,RHC Huramzai,na,na,na,30.74519,66.834266
+88,SO2,BNP,Ongoing,Quetta,Zarghoon,Tameer-e-Khalk Foundation,Sandeman Provincial Hospital Quetta,na,na,na,30.19364,67.008875
+89,SO2,BNP,Ongoing,Zhob,Kakar Khurasan,MERF,RHC Qamardin Karez,na,na,na,#N/A,#N/A
+90,SO1,SMP,Ongoing,Quetta,Postal Colony,ACT-International,Gghs Postal Colony Girls,3345,High,Girls,30.200336,67.004669
+91,SO1,SMP,Ongoing,Quetta,Kirani,ACT-International,Ggps Kirani Road,3396,Primary,Girls,30.1738846,66.953855
+92,SO1,SMP,Ongoing,Quetta,Railway,ACT-International,Gghss Railway Colony,3406,High,Girls,30.18934979,66.99620487
+93,SO1,SMP,Ongoing,Quetta,Mano Jan Road,ACT-International,Ggps Mano Jan Road Girls,3416,Primary,Girls,30.208076,66.9904861
+94,SO1,SMP,Ongoing,Quetta,Sabzal,ACT-International,Ggps Sabzal Road  Girls,3437,Primary,Girls,30.2091688,66.97551
+95,SO1,SMP,Ongoing,Quetta,Mission Road,ACT-International,Ggps Mission Road,3470,Primary,Girls,30.2004743,67.019335
+96,SO1,SMP,Ongoing,Quetta,Hudda,ACT-International,Gbps Center Hudda Boys,4782,Primary,Boys,30.2059218,66.9947131
+97,SO1,SMP,Ongoing,Quetta,Kamalo,ACT-International,Gbps Killi Kamalu,4873,Primary,Boys,30.1037417,66.9629949
+98,SO1,SMP,Ongoing,Quetta,Ghareeb Abad,ACT-International,Gbps Ghareeb Abad,4876,Primary,Boys,30.1122806,66.9630778
+99,SO1,SMP,Ongoing,Quetta,University Of Balochistan,ACT-International,Ggps University Colony,4894,Primary,Girls,30.1656389,66.9973734
+100,SO1,SMP,Ongoing,Quetta,Hudda,ACT-International,Ggps Central Jail Hudda,4946,Primary,Girls,30.2069527,66.9989872
+101,SO1,SMP,Ongoing,Quetta,Muslim Abad,ACT-International,Gbps New Muslim Abad,4952,Primary,Boys,30.1398078,66.9780415
+102,SO1,SMP,Ongoing,Quetta,Shabo,ACT-International,Gbps Killi Shabo,4977,Primary,Boys,30.2162017,66.9963333
+103,SO1,SMP,Ongoing,Quetta,Gurdat Sing Road,ACT-International,Gbps Shaldara No.1,4980,Primary,Boys,30.1863574,67.01307753
+104,SO1,SMP,Ongoing,Quetta,Deeba,ACT-International,Gbps Khuddo Deeba Quetta,4981,Primary,Boys,30.1950748,66.9919132
+105,SO1,SMP,Ongoing,Quetta,Gurdat Sing Road,ACT-International,Gbps Special Quetta,4988,Primary,Boys,30.18643773,67.01255456
+106,SO1,SMP,Ongoing,Quetta,Alamdar Road,ACT-International,Gbps Alamdar Road,4993,Primary,Boys,30.1894089,67.0273119
+107,SO1,SMP,Ongoing,Quetta,Ragha,ACT-International,Gbps Killi Ragha ,4999,Primary,Boys,30.2880233,67.006588
+108,SO1,SMP,Ongoing,Quetta,Durrani Abad,ACT-International,Gbps Killi Durrani Abad,5041,Primary,Boys,30.17784001,67.02478739
+109,SO1,SMP,Ongoing,Quetta,Rahim Gull Baleli,ACT-International,Gbps Killi Rahim Gull ,5054,Primary,Boys,30.275302,66.90538
+110,SO1,SMP,Ongoing,Quetta,Alam Khan,ACT-International,Gbps Killi Alam Khan,5062,Primary,Boys,30.2286847,66.994415
+111,SO1,SMP,Ongoing,Quetta,Kotwal,ACT-International,Gbps Karim Kotwal ,5064,Primary,Boys,30.2337983,67.002455
+112,SO1,SMP,Ongoing,Quetta,Sabzal,ACT-International,Gbps  Sabzal Road,5104,Primary,Boys,30.2176065,66.9718695
+113,SO1,SMP,Ongoing,Quetta,Gurdat Sing Road,ACT-International,Gbps Kasi ,5128,Primary,Boys,30.18640295,67.01288559
+114,SO1,SMP,Ongoing,Quetta,Postal Colony,ACT-International,Gbps Postal Colony Boys,5130,Primary,Boys,30.2007755,67.0072194
+115,SO1,SMP,Ongoing,Quetta,Satellite Town,ACT-International,Gbps Q.D.A Satellite Town Quetta,5136,Primary,Boys,30.1674633,67.0032094
+116,SO1,SMP,Ongoing,Quetta,Killi Ismail,ACT-International,Gbps Killi Ismail,5148,Primary,Boys,30.2138917,66.9961733
+117,SO1,SMP,Ongoing,Quetta,Double Road,ACT-International,Gbps Gull Abad Double Road,5149,Primary,Boys,30.1731268,66.9978537
+118,SO1,SMP,Ongoing,Quetta,Shadanzai,ACT-International,Gghs Ameen Abad,9261,High,Girls,30.186901,66.954059
+119,SO1,SMP,Ongoing,Quetta,Kakar Colony,ACT-International,Gbps Kakar Colony No 3,9616,Primary,Boys,30.1651695,67.0148817
+120,SO1,SMP,Ongoing,Quetta,Jinnah Town,ACT-International,Gghs  Jinnah Town Quetta,9620,High,Girls,30.216998,66.991175
+121,SO1,SMP,Ongoing,Quetta,Gor Colony,ACT-International,Gghs Gor Colony,9623,High,Girls,30.22053892,67.00089519
+122,SO1,SMP,Ongoing,Quetta,Aghan Colony Road,ACT-International,Gbps Afghan Colony(St17),10484,Primary,Boys,30.1713251,67.0170074
+123,SO1,SMP,Ongoing,Quetta,Pashtun Abad,ACT-International,Ggps Pashtunabad Gali No.11                         ,11230,Primary,Girls,30.1669309,67.0141678
+124,SO1,SMP,Ongoing,Quetta,Chukal Mian Khan,ACT-International,Gbps Chukal Mian Khan,15883,Primary,Boys,30.137613,66.9728474
+125,SO1,SMP,Ongoing,Quetta,Jinnah Town,ACT-International,Ggps Elementary College Girls (Laboratory School) Jinnah Town,15887,Primary,Girls,30.2172533,66.9903133
+126,SO1,SMP,Ongoing,Quetta,Ghouse Abad,ACT-International,Gbps Ghouse Abad,16651,Primary,Boys,30.1545276,66.9955974
+127,SO1,SMP,Ongoing,Quetta,Killi Badazai Kharotabad,ACT-International,Gbps Killi Badazai,16656,Primary,Boys,30.2260717,66.9563033
+128,SO1,SMP,Ongoing,Quetta,Killi Sheikhan,ACT-International,Gbps Laboratory Killi Sheikhan,18067,Primary,Boys,30.1828543,66.9925948
+129,SO1,SMP,Ongoing,Quetta,Killi Umar,ACT-International,Gbps Karimabad Killi Umar,49470,Primary,Boys,30.2416165,66.9965472
+130,SO1,SMP,Ongoing,Quetta,Pashtoon Bagh,ACT-International,Gbps Pashtoon Bagh No.2,4807,Primary,Boys,30.2073778,66.9680073
+131,SO1,SMP,Ongoing,Quetta,Pashtoon Bagh,ACT-International,Gps Pashtoon Bagh Killi Mera Jan,5154,Primary,Boys,30.2073778,66.9680073
+132,SO1,SMP,Ongoing,Quetta,Killi Ummer,ACT-International,Ggps Killi Umar,3380,High,Girls,30.2460217,66.9945194
+133,SO1,SMP,Ongoing,Quetta,Killi Shabo,ACT-International,Ggps Killi Shabo,3394,High,Girls,30.2229019,66.9928297
+134,SO1,SMP,Ongoing,Quetta,Killi Alam Khan,ACT-International,Gghs Killi Alam Khan,3334,High,Girls,30.2283545,66.9920702
+135,SO1,SMP,Ongoing,Quetta,Killi Khiazai,ACT-International,Gghs Killi Khaizai,9258,High,Girls,30.193199,66.952054
+136,SO1,SMP,Ongoing,Quetta,Nawa Killi,ACT-International,Gghs Nawa Killi Quetta,3431,High,Girls,30.23227095,67.01450572
+137,SO1,SMP,Ongoing,Quetta,Saraghwargi,ACT-International,Gghs Killi Saraghurgai,3350,High,Girls,30.28280216,67.01817611
+138,SO1,SMP,Ongoing,Quetta,Killi Nohisar,ACT-International,Gghs Killi Nohisar Gghs Killi Nohisar,3365,High,Girls,30.24260387,66.88838185
+139,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Pak Atta Chak,na,na,na,30.249611,67.013028
+140,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Qambar Ata Chaki,na,na,na,30.152000,66.973806
+141,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Qambrani Mill Atta Chakki,na,na,na,30.153358,66.984523
+142,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Saif Flour Mill (Ni-Chakki),na,na,na,30.188791,66.980751
+143,SO1,CHAKKI,Ongoing,Quetta,na,na,Al Mehmood Atta Chakki,na,na,na,30.083000,66.963690
+144,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Shams Ullah Chakki Atta,na,na,na,30.096000,66.952861
+145,SO1,CHAKKI,Ongoing,Quetta,na,na,Food Subhan Chaki Atta,na,na,na,30.221672,66.958824
+146,SO1,School Meal project with social welfare deparement,In pipeline,Quetta,na,na,na,na,na,na,30.19139,66.9544046
+147,SO2,Cash Stipend,In pipeline,Awaran,na,na,na,na,na,na,26.46200,65.25281
+148,SO2,Cash Stipend,In pipeline,Barkhan,na,na,na,na,na,na,29.90100,69.52200
+149,SO2,Cash Stipend,In pipeline,Chagai,na,na,na,na,na,na,28.88700,64.40100
+150,SO2,Cash Stipend,In pipeline,Chaman,na,na,na,na,na,na,30.92600,66.44902
+151,SO2,Cash Stipend,In pipeline,Dera Bugti,na,na,na,na,na,na,29.03200,69.16100
+152,SO2,Cash Stipend,In pipeline,Dukki,na,na,na,na,na,na,30.15300,68.57500
+153,SO2,Cash Stipend,In pipeline,Gwadar,na,na,na,na,na,na,25.17100,62.33300
+154,SO2,Cash Stipend,In pipeline,Harnai,na,na,na,na,na,na,30.10600,67.93200
+155,SO2,Cash Stipend,In pipeline,Hub,na,na,na,na,na,na,25.02300,66.87100
+156,SO2,Cash Stipend,In pipeline,Jaffarabad,na,na,na,na,na,na,28.37300,68.35000
+157,SO2,Cash Stipend,In pipeline,Jhal Magsi,na,na,na,na,na,na,28.28700,67.45300
+158,SO2,Cash Stipend,In pipeline,Kachhi,na,na,na,na,na,na,29.86200,67.33100
+159,SO2,Cash Stipend,In pipeline,Kalat,na,na,na,na,na,na,29.02300,66.59100
+160,SO2,Cash Stipend,In pipeline,Kech,na,na,na,na,na,na,25.99000,63.06200
+161,SO2,Cash Stipend,In pipeline,Kharan,na,na,na,na,na,na,28.58900,65.43000
+162,SO2,Cash Stipend,In pipeline,Khuzdar,na,na,na,na,na,na,27.80100,66.61100
+163,SO2,Cash Stipend,In pipeline,Killa Abdullah,na,na,na,na,na,na,30.72100,66.68209
+164,SO2,Cash Stipend,In pipeline,Killa Saifullah,na,na,na,na,na,na,30.69500,68.35000
+165,SO2,Cash Stipend,In pipeline,Kohlu,na,na,na,na,na,na,29.89500,69.23700
+166,SO2,Cash Stipend,In pipeline,Lasbela,na,na,na,na,na,na,25.81100,66.62300
+167,SO2,Cash Stipend,In pipeline,Loralai,na,na,na,na,na,na,30.38000,68.60000
+168,SO2,Cash Stipend,In pipeline,Mastung,na,na,na,na,na,na,29.79900,66.84510
+169,SO2,Cash Stipend,In pipeline,Musakhel,na,na,na,na,na,na,30.86100,69.83000
+170,SO2,Cash Stipend,In pipeline,Nasirabad,na,na,na,na,na,na,28.52100,68.21000
+171,SO2,Cash Stipend,In pipeline,Nushki,na,na,na,na,na,na,29.55500,66.01500
+172,SO2,Cash Stipend,In pipeline,Panjgur,na,na,na,na,na,na,26.97100,64.09600
+173,SO2,Cash Stipend,In pipeline,Pishin,na,na,na,na,na,na,30.57200,66.86400
+174,SO2,Cash Stipend,In pipeline,Quetta,na,na,na,na,na,na,30.19364,67.00888
+175,SO2,Cash Stipend,In pipeline,Sherani,na,na,na,na,na,na,31.40469,69.81200
+176,SO2,Cash Stipend,In pipeline,Sibi,na,na,na,na,na,na,29.55100,67.89200
+177,SO2,Cash Stipend,In pipeline,Sohbatpur,na,na,na,na,na,na,28.51600,68.54200
+178,SO2,Cash Stipend,In pipeline,Surab,na,na,na,na,na,na,28.49500,66.26400
+179,SO2,Cash Stipend,In pipeline,Usta Mohammad,na,na,na,na,na,na,28.17400,68.04200
+180,SO2,Cash Stipend,In pipeline,Washuk,na,na,na,na,na,na,27.71900,64.80800
+181,SO2,Cash Stipend,In pipeline,Zhob,na,na,na,na,na,na,31.34200,69.44400
+182,SO2,Cash Stipend,In pipeline,Ziarat,na,na,na,na,na,na,30.38500,67.72200
+183,SO1,"DESIGN (Developing Economically Sustainable, Inclusive Growth Networks)",Ongoing,Gwadar,na,na,na,na,na,na,25.126562,62.321213
+184,SO1,"DESIGN (Developing Economically Sustainable, Inclusive Growth Networks)",Ongoing,Lasbela,na,na,na,na,na,na,25.81571,66.626948
+185,SO1,Integrated Disaster Preparedness (DP) for Resilience Building,Ongoing,Nushki,na,na,na,na,na,na,29.565967,66.014532
