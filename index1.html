@@ -1,0 +1,17 @@
+<script>
+fetch("balochistan.geojson")
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: {
+        color: "#333",
+        weight: 1,
+        fillColor: "#cce5ff",
+        fillOpacity: 0.3
+      },
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup(`<b>${feature.properties.DISTRICT}</b>`);
+      }
+    }).addTo(map);
+  });
+</script>
